@@ -1,0 +1,15 @@
+### InteliJ Idea ###
+.idea/
+*.iml
+*.iws
+*.ipr
+*.cache
+*.swp
+*.swo
+.idea_modules/
+
+
+### VS Code ###
+.vscode/
+
+
