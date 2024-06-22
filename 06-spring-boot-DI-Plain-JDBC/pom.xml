@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.6</version>
+		<version>3.2.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.gour.priyanshu</groupId>
-	<artifactId>05-spring-boot-ConfigurationProperties-AllType</artifactId>
+	<artifactId>06-spring-boot-DI-Plain-JDBC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>05-spring-boot-ConfigurationProperties-AllType</name>
-	<description>Demo project for Spring Boot bulk injection ConfigurationProperties with all type</description>
+	<name>06-spring-boot-DI-Plain-JDBC</name>
+	<description>Demo project for Spring Boot to work with plain JDBC CRUD</description>
 	<url/>
 	<licenses>
 		<license/>
