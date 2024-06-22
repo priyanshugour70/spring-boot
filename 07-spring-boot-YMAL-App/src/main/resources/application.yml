@@ -1,0 +1,41 @@
+# application.yml
+
+spring:
+  # for database
+  datasource:
+    url: jdbc:mysql:///students
+    username: root
+    password: Harda20p!
+
+  # for application name
+  application:
+    name: 07-spring-boot-YMAL-App
+
+
+# Field Injection
+emp:
+  info:
+    name: sachin
+    eid: 10
+    nickNames:
+      - masterblaster
+      - littlemaster
+    friendsNames:
+      - saurav
+      - dravid
+      - sehwagh
+      - laxman
+    phoneNumber:
+      - 9998887776
+      - 8889996665
+      - 9898987645
+    bankDetails:
+      sbi: 122335
+      canara: 223345
+    company:
+      location: DELHI
+      title: IPL
+      size: 100
+
+
+
