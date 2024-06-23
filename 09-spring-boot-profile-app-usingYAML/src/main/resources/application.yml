@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: 09-spring-boot-profile-app-usingYAML
+  datasource:
+    password: Harda20p!
+    url: jdbc:mysql://localhost:3306/students
+    username: root
+---
+spring:
+  config:
+    activate:
+      on-profile:
+        - dev
+  datasource:
+    type: org.apache.commons.dbcp2.BasicDataSource
+---
+spring:
+  config:
+    activate:
+      on-profile:
+        - qa
+  datasource:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+---
+spring:
+  config:
+    activate:
+      on-profile:
+        - uat
+  datasource:
+    password: system123
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+    type: oracle.ucp.jdbc.PoolDataSource
+---
+spring:
+  config:
+    activate:
+      on-profile:
+        - prod
+  datasource:
+    password: system123
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+
+
