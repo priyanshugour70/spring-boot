@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gour.priyanshu</groupId>
-	<artifactId>_38-spring-boot-mvc-basic</artifactId>
+	<artifactId>38-spring-boot-mvc-basic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>38-spring-boot-mvc-basic</name>
 	<description>38-spring-boot-mvc-basic</description>
@@ -40,6 +40,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
