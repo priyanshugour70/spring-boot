@@ -1,4 +1,4 @@
-package com.finopsrj.yellowkart.bean;
+package com.gour.priyanshu.bean;
 
 import java.util.List;
 

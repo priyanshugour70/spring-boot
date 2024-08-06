@@ -1,11 +1,12 @@
-package com.finopsrj.yellowkart;
+package com.gour.priyanshu;
 
 
 import java.io.File;
 import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.finopsrj.yellowkart.bean.Customer;
+import com.gour.priyanshu.bean.Customer;
+
 /**
  * Hello world!
  *

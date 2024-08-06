@@ -1,4 +1,4 @@
-package com.finopsrj.yellowkart.bean;
+package com.gour.priyanshu.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
